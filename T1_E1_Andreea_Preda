@@ -1,0 +1,17 @@
+a=0:0.1:2;
+b=ones(21,1);
+
+% daca vectorul a are 21 de elemente, atunci si vectorul b trebuie sa aiba 21 de
+%elemente.
+a*b
+%efectuam inmultirea
+
+b*a
+%va rezulta o matrice de 21 de coloane si 21 de linii
+
+for i=1:1:21 %deoarece sunt 21 de elemente in vectori
+    c(i)=a(i)*b(i);
+end
+c
+%rezulta vectorul a
+
